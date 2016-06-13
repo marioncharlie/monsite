@@ -1,0 +1,322 @@
+@charset "UTF-8";
+/* CSS Document */
+
+body { background-color:rgba(0,0,51,1)
+}
+header {
+	width:100%;
+	background-color:#000b0b;
+	position:fixed;
+}
+
+@font-face { 
+  font-family: 'Futura'; 
+  src: url('Futura.ttc'); 
+}
+
+@font-face { 
+  font-family: 'FuturaStd'; 
+  src: url('FuturaStd-Light.otf'); 
+}
+ 
+.liennav {
+	font-family: 'FuturaStd';
+	color: #FCFCFC;
+	background-color: #000b0b;
+	padding-left: 15px;
+	border-style: solid;
+	border-width: 4px;
+	border-color: #000b0b;
+	text-decoration: none;
+	border-radius: 1px;
+	font-weight: bold;
+}
+
+
+.liennav:hover { color:#F4DBF9; }
+
+.liennav:active { color:#5C859A; }
+
+.rose {
+	font-family:'FuturaStd';
+	color:rgba(255,255,255,1);
+	background-color:rgba(246,36,89,1);
+	text-decoration:none;
+	font-weight:lighter;
+	padding:5px;
+}
+
+.rose:hover {
+	color:rgba(252,201,53,1);
+	font-weight:lighter;
+}
+
+.rose:active {
+	color:rgba(255,204,204,1);
+	font-weight:lighter;
+}
+
+#nav{
+	padding-top:30px;
+	padding-bottom:0px;
+	top:0;
+	left:0;
+	width:100%;
+	background-color:#000b0b;
+	box-shadow: 0px 3px 6px #000;
+	position:fixed;
+	height:50px;
+}
+
+#footer {
+	font-family: 'Futura', Georgia, serif;
+	font-weight: normal;
+	color: #CCC;
+	width: 100%;
+	text-align: center;
+	font-size: 12px;
+	position: fixed;
+	bottom:0px;
+	left: 0;
+	background-color: #000b0b;
+	box-shadow: 7px 5px 5px 10px #000;
+	height:50px;
+	padding-top:30px;
+	padding-bottom:0px;
+}
+
+i.social {
+	margin:5px;
+}
+
+i.small {
+	font-size: 2em;
+	color:rgba(255,255,255,1);
+}
+
+i.social:hover {
+	color:rgba(246,36,89,1);
+}
+
+i.flight {
+	font-size:25px;
+	color:rgba(255,255,255,1);
+	vertical-align:middle;
+	padding-bottom:3px;
+
+}
+
+i.flight:hover {
+	color:rgba(246,36,89,1);
+vertical-align:middle;
+padding-bottom:3px;
+	
+}
+
+#actu1 {
+	background-color: rgba(0,0,0,0.5);
+	text-align:center;
+	color:rgba(255,255,255,1);
+	font-size:15px;
+	font-family:'FuturaStd';
+	padding-top:3px;
+	padding-left:10px;
+
+}
+
+span.actu-paragraphe
+
+{text-align:center;
+	color:rgba(255,255,255,1);
+	font-size:15px;
+	font-family:'FuturaStd';
+	vertical-align:middle;
+padding-left:5px;
+	
+}
+
+
+#bienvenue {
+	background-color: rgba(0,0,0,0.5);
+	text-align:center;
+	color:#CCC;
+}
+
+#bienvenue2 {
+	background-color: rgba(0,0,0,0.5);
+	text-align:center;
+	color:#CCC;
+	font-size:18px;
+	margin-top:-20px;
+}
+
+.top1{
+	height:400px;}
+	
+.topexp{
+	height: 12em;
+} /*sert a rien en % */
+	
+.top2{ 
+	height:10em;}
+
+#experience1{
+	background-color: #F62459;
+	text-align: center;
+	font-family: Futura;
+	font-weight: lighter;
+	color: #CCC;
+	margin-bottom: 15px;
+	padding: 5px;
+	margin-top:40px;
+}
+
+#experience2{
+	background-color: rgba(0,0,51,0.5);
+	text-align: center;
+	font-family: Futura;
+	font-weight: lighter;
+	color: #CCC;
+	
+	padding: 5px;
+}
+
+#titreformation{
+	background-color: #F62459;
+	text-align: center;
+	font-family: Futura;
+	font-weight: lighter;
+	color: #CCC;
+	margin-bottom: 15px;
+	padding: 5px;
+	margin-top:40px;
+	
+}
+
+#formation2{
+	background-color: rgba(0,0,0,0.5);
+	text-align:center;
+	font-family:Futura;
+	font-weight:lighter;
+	color:#CCC;
+	padding:5px;
+}
+
+#realisations2{
+	background-color: rgba(0,0,0,0.5);
+	text-align:center;
+	font-family:Futura;
+	font-weight:lighter;
+	color:#CCC;
+}
+
+#realisations3{
+	background-color: rgba(0,0,0,0.5);
+	text-align:center;
+	font-family:Futura;
+	font-weight:lighter;
+	color:#CCC;
+	padding:5px;
+}
+
+
+h1{ 
+	font-family:Arial, Helvetica, sans-serif;
+	color:#FDFDFD;
+	padding:0% 0% 0% 2%;
+	font-size:30px;
+}
+
+
+h2{ 
+	font-family:'FuturaStd';
+	color:#FC3;
+}
+
+
+h3 {
+	font-family:'FuturaStd';
+	font-weight:lighter;
+	color:#00b5b5;
+	padding-left:20px;
+}
+
+p{
+	padding: 5px;
+	font-family: 'FuturaStd', Georgia, serif;
+	color:rgba(255,255,255,1);
+}
+
+.soustitre{
+	font-family:'FuturaStd';
+	font-size:40px;
+	color:#00b5b5;
+	text-align:center;
+	padding:20px;
+	font-weight:bolder;
+	
+}
+
+.dispo {
+	color: #FC3;
+	}
+
+.jaune{
+	font-family: 'FuturaStd';
+	font-weight: bold;
+	color: #FECC2F;	
+}
+
+.angie{
+	font-family: 'Futura';
+	font-weight: lighter;
+	color: #e30470;
+	background-color:rgba(0,0,0,0.5);
+	padding:3px;
+	padding-left:6px;
+}
+
+
+#espace {
+	height:100px;
+}
+
+
+
+
+
+/* Mise en place des différentes parties / slides */
+#slide1, #slide2, #slide3, #slide4 {
+	height: 850px;
+	padding-top:0px;
+}
+
+#slide1 {
+	background: url(photos/mediterranee.jpg) center 0 no-repeat fixed;
+}
+
+#slide2 {
+	background: url(photos/perroquet-colo.jpg) center 0 no-repeat fixed;
+}
+
+#slide3 {
+	background: url(photos/new-york-colo.jpg) center 0 no-repeat fixed;
+}
+
+#slide4 {
+	background: url(photos/montreal-colo.jpg) center 0 no-repeat fixed;
+}
+
+
+
+/* Gestion du contenu */
+.slide_inside {
+	width: 75%;
+	margin: 0 auto;
+}
+
+#slide1  .slide_inside {
+	text-align:center;
+}
+
+
