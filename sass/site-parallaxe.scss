@@ -12,6 +12,7 @@ $static: fixed;
 $police-principal: 'Futura';
 $police-second:'FuturaStd';
 $large-font:bold;
+$deco-none: none;
 body {
     background-color: $black;
 }
@@ -40,7 +41,7 @@ header {
     border-style: solid;
     border-width: 4px;
     border-color: $black-menu;
-    text-decoration: none;
+    text-decoration: $deco-none;
     border-radius: 1px;
     font-weight: $large-font;
 }
@@ -53,19 +54,19 @@ header {
     color: #5C859A;
 }
 
-.rose {
+.links-principal {
     font-family: 'FuturaStd';
     color: #00b5b5;
     text-decoration: none;
     font-weight: lighter;
 }
 
-.rose:hover {
+.links-principal:hover {
     color: rgba(252, 201, 53, 1);
     font-weight: lighter;
 }
 
-.rose:active {
+.links-principal:active {
     color: rgba(255, 204, 204, 1);
     font-weight: lighter;
 }
@@ -109,7 +110,7 @@ i.small {
 }
 
 i.social:hover {
-    color: rgba(255, 234, 78, 1);
+    color: $yellow;
 }
 
 i.flight {
@@ -165,7 +166,7 @@ span.actu-paragraphe {
 }
 
 #bienvenue2 {
-    background-color: rgba(255, 234, 78, 1);
+    background-color: $yellow;
     text-align: center;
     color: #CCC;
     font-size: 18px;
@@ -188,7 +189,7 @@ span.actu-paragraphe {
 }
 
 #cadreTitre {
-    background-color: rgba(255, 234, 78, 1);
+    background-color: $yellow;
     text-align: center;
     font-family: Futura;
     font-weight: lighter;
